@@ -19,7 +19,6 @@ namespace DasItManeCmd
 "            [ 420 Blaze It Simulator 2014 ]";
             string strQuestion = "You see a dank ass blunt chilaxing on the edge of your table.\nDo you toke it? [Y/N]";
             string answer;
-            ConsoleKeyInfo cki;
             string strResultYes = "- Yeah.\nDas it mane.";
             string strResultNo = "- Nah.\nWow. Gay.";
             string strUnknown = "Come again?";
@@ -54,6 +53,7 @@ namespace DasItManeCmd
                 DoIt();
             }
         }
+
         static void Main(string[] args)
         {
             Console.Title = "Das It Mane: 420 Blaze It Simulator 2014";
